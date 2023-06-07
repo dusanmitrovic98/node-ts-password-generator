@@ -13,3 +13,4 @@ const generatePassword = (
   }
   return password;
 };
+export default generatePassword;
