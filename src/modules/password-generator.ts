@@ -1,1 +1,2 @@
 const generatePassword = (
+  length: number,
