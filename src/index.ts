@@ -28,3 +28,4 @@ rl.question("Password length: ", (length: string) => {
       });
     }
   );
+});
