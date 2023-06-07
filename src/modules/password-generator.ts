@@ -4,3 +4,4 @@ const generatePassword = (
   includeNumbers: boolean
 ): string => {
   let charset = "abcdefghijklmnopqrstuvwxyz";
+  if (includeUppercase) charset += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
