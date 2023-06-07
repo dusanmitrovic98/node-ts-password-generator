@@ -1,1 +1,1 @@
-//Generate a random passwordconst generatePassword = (  length: number,  includeUppercase: boolean,
+//Generate a random passwordconst generatePassword = (  length: number,  includeUppercase: boolean,  includeNumbers: boolean
