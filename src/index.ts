@@ -13,3 +13,4 @@ rl.question("Password length: ", (length: string) => {
     (includeUppercase: string) => {
       rl.question("Include numbers (Y/N)? ", (includeNumbers: string) => {
         const parsedLength = parseInt(length, 10);
+        const parsedIncludeUppercase = includeUppercase.toUpperCase() === "Y";
