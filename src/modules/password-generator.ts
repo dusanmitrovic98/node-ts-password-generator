@@ -1,1 +1,1 @@
-//Generate a random password
+//Generate a random passwordconst generatePassword = (
