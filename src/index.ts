@@ -16,3 +16,4 @@ rl.question("Password length: ", (length: string) => {
         const parsedIncludeUppercase = includeUppercase.toUpperCase() === "Y";
         const parsedIncludeNumbers = includeNumbers.toUpperCase() === "Y";
 
+        const password = generatePassword(
