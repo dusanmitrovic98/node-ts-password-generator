@@ -1,1 +1,1 @@
-const generatePassword = (  length: number,
+const generatePassword = (  length: number,  includeUppercase: boolean,
