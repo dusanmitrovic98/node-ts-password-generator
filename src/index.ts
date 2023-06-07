@@ -21,3 +21,4 @@ rl.question("Password length: ", (length: string) => {
           parsedIncludeUppercase,
           parsedIncludeNumbers
         );
+
