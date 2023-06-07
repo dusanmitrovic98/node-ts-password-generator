@@ -22,3 +22,4 @@ rl.question("Password length: ", (length: string) => {
           parsedIncludeNumbers
         );
 
+        console.log(`Generated Password: ${password}`);
