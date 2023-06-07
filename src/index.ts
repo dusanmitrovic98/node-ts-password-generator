@@ -25,3 +25,4 @@ rl.question("Password length: ", (length: string) => {
         console.log(`Generated Password: ${password}`);
 
         rl.close();
+      });
