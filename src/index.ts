@@ -9,3 +9,4 @@ const rl = readline.createInterface({
 
 rl.question("Password length: ", (length: string) => {
   rl.question(
+    "Include uppercase letters (Y/N)? ",
