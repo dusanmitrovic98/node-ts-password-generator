@@ -12,3 +12,4 @@ const generatePassword = (
     password += charset[randomIndex];
   }
   return password;
+};
