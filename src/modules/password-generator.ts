@@ -7,3 +7,4 @@ const generatePassword = (
   if (includeUppercase) charset += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   if (includeNumbers) charset += "0123456789";
   let password = "";
+  for (let i = 0; i < length; i++) {
